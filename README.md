@@ -5,6 +5,8 @@ Software gratuito de descarga masiva de CFDI y generación de reportes en Excel 
 https://eraro.mx/
 
 ## Uso de otras librerias
+
+```python
 from bs4 import BeautifulSoup
 from cfdiclient import Autenticacion, DescargaMasiva, Fiel, SolicitaDescarga, VerificaSolicitudDescarga
 from datetime import datetime, time
@@ -25,3 +27,4 @@ import os
 import pandas as pd
 import parsing_xml
 import sys
+```
